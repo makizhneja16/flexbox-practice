@@ -1,0 +1,90 @@
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 600px;
+    margin:  70px auto;
+    background-color:rosybrown;
+    padding:10px 20px;
+    box-shadow: inset 1px 2px 100px 20px red;
+    border: solid 10px red;
+    height: 700px ;
+    
+}
+
+.child h2{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border-bottom: solid 10px gold;
+    background-color: gray;
+    
+
+}
+
+p{
+   
+    color: royalblue;
+    margin-bottom:  10px;
+}
+
+.parent{
+      border: solid 10px yellowgreen;
+      display: flex;
+      flex-direction: row;
+      padding: 50px ;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      
+      
+     
+      
+      
+
+}
+
+.parent .child{
+    border: solid 5px black;
+    flex-basis: 20%; 
+    margin-bottom: 50px;
+    padding: 20px;
+    
+    
+    
+    
+}
+
+.parent .child-1{
+    background-color: brown;
+    
+    
+}
+
+.parent .child-2{
+    background-color: red;
+    
+}
+
+.parent .child-3{
+    background-color: green;
+    
+}
+
+.parent .child-4{
+    background-color: blue;
+    
+}
+
+.parent .child-5{
+    background-color: darkmagenta;
+    
+}
+
+.parent .child-6{
+    background-color: brown;
+    
+}
+
+
+
